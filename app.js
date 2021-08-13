@@ -35,3 +35,61 @@ console.countReset('orange');
 oranges.forEach(fruit => {
   console.count(fruit)
 });
+//print the stack trace
+const function2 = () => console.trace()
+const function1 = () => function2()
+function1()
+//color the output of your text in the console
+console.log('\x1b[33m%s\x1b[0m', 'hi!');
+//calculate how much time a function takes to run
+const doSomething = () => console.log('test')
+const measureDoingSomething = () => {
+  console.time('doSomething()')
+  //do something, and measure the time it takes
+  doSomething()
+  console.timeEnd('doSomething()')
+}
+measureDoingSomething()
+//chalk
+const chalk = require('chalk');
+console.log(chalk.red('hi!'));
+//create a progress bar
+const ProgressBar = require('progress')
+
+const bar = new ProgressBar(':bar', { total: 10 })
+const timer = setInterval(() => {
+  bar.tick()
+  if (bar.complete) {
+    clearInterval(timer)
+  }
+}, 100)
+//getting input
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+})
+
+readline.question(`What's your name?`, name => {
+  console.log(`Hi ${name}!`)
+  readline.close()
+})
+//inquire
+const inquirer = require('inquirer');
+
+var questions = [
+  {
+    type: 'input',
+    name: 'name',
+    message: "What's your name?"
+  }
+]
+
+inquirer.prompt(questions).then(answers => {
+  console.log(`Hi ${answers['name']}!`);
+})
+
+
+
+
+
+

@@ -1,0 +1,225 @@
+C:\Users\charumathi.hariharan>node app.js
+My cat has 2 years
+15
+undefined
+undefined
+undefined
+The value of x is 1 and has been checked .. how many times?: 1
+The value of x is 1 and has been checked .. how many times?: 2
+The value of y is 2 and has been checked .. how many times?: 1
+orange: 1
+orange: 2
+just one apple: 1
+orange: 1
+orange: 2
+Trace
+    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
+    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
+    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+hi!
+test
+doSomething(): 0.796ms
+//chalk
+C:\Users\charumathi.hariharan>npm install chalk
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN charumathi.hariharan No description
+npm WARN charumathi.hariharan No repository field.
+npm WARN charumathi.hariharan No README data
+npm WARN charumathi.hariharan No license field.
+
++ chalk@4.1.2
+added 6 packages from 3 contributors and audited 7 packages in 1.918s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+C:\Users\charumathi.hariharan>node app.js
+My cat has 2 years
+15
+undefined
+undefined
+undefined
+The value of x is 1 and has been checked .. how many times?: 1
+The value of x is 1 and has been checked .. how many times?: 2
+The value of y is 2 and has been checked .. how many times?: 1
+orange: 1
+orange: 2
+just one apple: 1
+orange: 1
+orange: 2
+Trace
+    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
+    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
+    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+hi!
+test
+doSomething(): 7.515ms
+hi!
+//progress
+C:\Users\charumathi.hariharan>npm install progress
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN charumathi.hariharan No description
+npm WARN charumathi.hariharan No repository field.
+npm WARN charumathi.hariharan No README data
+npm WARN charumathi.hariharan No license field.
+
++ progress@2.0.3
+added 1 package from 5 contributors and audited 12 packages in 1.579s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+//progress box
+C:\Users\charumathi.hariharan>node app.js
+My cat has 2 years
+15
+undefined
+undefined
+undefined
+The value of x is 1 and has been checked .. how many times?: 1
+The value of x is 1 and has been checked .. how many times?: 2
+The value of y is 2 and has been checked .. how many times?: 1
+orange: 1
+orange: 2
+just one apple: 1
+orange: 1
+orange: 2
+Trace
+    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
+    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
+    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+hi!
+test
+doSomething(): 7.916ms
+hi!
+==========
+//accept input
+C:\Users\charumathi.hariharan>node app.js
+My cat has 2 years
+15
+undefined
+undefined
+undefined
+The value of x is 1 and has been checked .. how many times?: 1
+The value of x is 1 and has been checked .. how many times?: 2
+The value of y is 2 and has been checked .. how many times?: 1
+orange: 1
+orange: 2
+just one apple: 1
+orange: 1
+orange: 2
+Trace
+    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
+    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
+    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+hi!
+test
+doSomething(): 6.664ms
+hi!
+==========
+charu
+Hi charu!
+
+C:\Users\charumathi.hariharan>npm install inquirer
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN charumathi.hariharan No description
+npm WARN charumathi.hariharan No repository field.
+npm WARN charumathi.hariharan No README data
+npm WARN charumathi.hariharan No license field.
+
++ inquirer@8.1.2
+added 45 packages from 51 contributors and audited 57 packages in 36.856s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+//inquirer
+C:\Users\charumathi.hariharan>node app.js
+My cat has 2 years
+15
+undefined
+undefined
+undefined
+The value of x is 1 and has been checked .. how many times?: 1
+The value of x is 1 and has been checked .. how many times?: 2
+The value of y is 2 and has been checked .. how many times?: 1
+orange: 1
+orange: 2
+just one apple: 1
+orange: 1
+orange: 2
+Trace
+    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
+    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
+    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+hi!
+test
+doSomething(): 8.541ms
+hi!
+==========
+? What's your name? Charu
+Hi Charu!
+? What's your name? Charu
+Hi Charu!
+//npm
+C:\Users\charumathi.hariharan>npm install lodash
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN charumathi.hariharan No description
+npm WARN charumathi.hariharan No repository field.
+npm WARN charumathi.hariharan No README data
+npm WARN charumathi.hariharan No license field.
+
++ lodash@4.17.21
+updated 1 package and audited 87 packages in 16.552s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm install -g lodash
++ lodash@4.17.21
+added 1 package from 2 contributors in 9.951s
+
+C:\Users\charumathi.hariharan>npm root -g
+C:\Users\charumathi.hariharan\AppData\Roaming\npm\node_modules
