@@ -1,32 +1,449 @@
-C:\Users\charumathi.hariharan>node app.js
-My cat has 2 years
-15
-undefined
-undefined
-undefined
-The value of x is 1 and has been checked .. how many times?: 1
-The value of x is 1 and has been checked .. how many times?: 2
-The value of y is 2 and has been checked .. how many times?: 1
-orange: 1
-orange: 2
-just one apple: 1
-orange: 1
-orange: 2
-Trace
-    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
-    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
-    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
-    at internal/main/run_main_module.js:17:47
-hi!
-test
-doSomething(): 0.796ms
-//chalk
-C:\Users\charumathi.hariharan>npm install chalk
+//version of all installed npm packages, including their dependencies
+C:\Users\charumathi.hariharan>npm list
+C:\Users\charumathi.hariharan
++-- dotenv@10.0.0
++-- inquirer@8.1.2
+| +-- ansi-escapes@4.3.2
+| | `-- type-fest@0.21.3
+| +-- chalk@4.1.2
+| | +-- ansi-styles@4.3.0
+| | | `-- color-convert@2.0.1
+| | |   `-- color-name@1.1.4
+| | `-- supports-color@7.2.0
+| |   `-- has-flag@4.0.0
+| +-- cli-cursor@3.1.0
+| | `-- restore-cursor@3.1.0
+| |   +-- onetime@5.1.2
+| |   | `-- mimic-fn@2.1.0
+| |   `-- signal-exit@3.0.3
+| +-- cli-width@3.0.0
+| +-- external-editor@3.1.0
+| | +-- chardet@0.7.0
+| | +-- iconv-lite@0.4.24
+| | | `-- safer-buffer@2.1.2
+| | `-- tmp@0.0.33
+| |   `-- os-tmpdir@1.0.2
+| +-- figures@3.2.0
+| | `-- escape-string-regexp@1.0.5
+| +-- lodash@4.17.21
+| +-- mute-stream@0.0.8
+| +-- ora@5.4.1
+| | +-- bl@4.1.0
+| | | +-- buffer@5.7.1
+| | | | +-- base64-js@1.5.1
+| | | | `-- ieee754@1.2.1
+| | | +-- inherits@2.0.4
+| | | `-- readable-stream@3.6.0
+| | |   +-- inherits@2.0.4 deduped
+| | |   +-- string_decoder@1.3.0
+| | |   | `-- safe-buffer@5.2.1
+| | |   `-- util-deprecate@1.0.2
+| | +-- chalk@4.1.2 deduped
+| | +-- cli-cursor@3.1.0 deduped
+| | +-- cli-spinners@2.6.0
+| | +-- is-interactive@1.0.0
+| | +-- is-unicode-supported@0.1.0
+| | +-- log-symbols@4.1.0
+| | | +-- chalk@4.1.2 deduped
+| | | `-- is-unicode-supported@0.1.0 deduped
+| | +-- strip-ansi@6.0.0 deduped
+| | `-- wcwidth@1.0.1
+| |   `-- defaults@1.0.3
+| |     `-- clone@1.0.4
+| +-- run-async@2.4.1
+| +-- rxjs@7.3.0
+| | `-- tslib@2.1.0
+| +-- string-width@4.2.2
+| | +-- emoji-regex@8.0.0
+| | +-- is-fullwidth-code-point@3.0.0
+| | `-- strip-ansi@6.0.0 deduped
+| +-- strip-ansi@6.0.0
+| | `-- ansi-regex@5.0.0
+| `-- through@2.3.8
+`-- progress@2.0.3
+
+//globally installed packages
+C:\Users\charumathi.hariharan>npm list -g
+C:\Users\charumathi.hariharan\AppData\Roaming\npm
++-- @angular/cli@12.1.4
+| +-- @angular-devkit/architect@0.1201.4
+| | +-- @angular-devkit/core@12.1.4 deduped
+| | `-- rxjs@6.6.7
+| |   `-- tslib@1.14.1
+| +-- @angular-devkit/core@12.1.4
+| | +-- ajv@8.6.0
+| | | +-- fast-deep-equal@3.1.3
+| | | +-- json-schema-traverse@1.0.0
+| | | +-- require-from-string@2.0.2
+| | | `-- uri-js@4.4.1
+| | |   `-- punycode@2.1.1
+| | +-- ajv-formats@2.1.0
+| | | `-- ajv@8.6.0 deduped
+| | +-- fast-json-stable-stringify@2.1.0
+| | +-- magic-string@0.25.7
+| | | `-- sourcemap-codec@1.4.8
+| | +-- rxjs@6.6.7 deduped
+| | `-- source-map@0.7.3
+| +-- @angular-devkit/schematics@12.1.4
+| | +-- @angular-devkit/core@12.1.4 deduped
+| | +-- ora@5.4.1 deduped
+| | `-- rxjs@6.6.7 deduped
+| +-- @schematics/angular@12.1.4
+| | +-- @angular-devkit/core@12.1.4 deduped
+| | +-- @angular-devkit/schematics@12.1.4 deduped
+| | `-- jsonc-parser@3.0.0 deduped
+| +-- @yarnpkg/lockfile@1.1.0
+| +-- ansi-colors@4.1.1
+| +-- debug@4.3.1
+| | `-- ms@2.1.2
+| +-- ini@2.0.0
+| +-- inquirer@8.1.1
+| | +-- ansi-escapes@4.3.2
+| | | `-- type-fest@0.21.3
+| | +-- chalk@4.1.1
+| | | +-- ansi-styles@4.3.0
+| | | | `-- color-convert@2.0.1
+| | | |   `-- color-name@1.1.4
+| | | `-- supports-color@7.2.0
+| | |   `-- has-flag@4.0.0
+| | +-- cli-cursor@3.1.0
+| | | `-- restore-cursor@3.1.0
+| | |   +-- onetime@5.1.2
+| | |   | `-- mimic-fn@2.1.0
+| | |   `-- signal-exit@3.0.3
+| | +-- cli-width@3.0.0
+| | +-- external-editor@3.1.0
+| | | +-- chardet@0.7.0
+| | | +-- iconv-lite@0.4.24
+| | | | `-- safer-buffer@2.1.2
+| | | `-- tmp@0.0.33
+| | |   `-- os-tmpdir@1.0.2
+| | +-- figures@3.2.0
+| | | `-- escape-string-regexp@1.0.5
+| | +-- lodash@4.17.21
+| | +-- mute-stream@0.0.8
+| | +-- ora@5.4.1 deduped
+| | +-- run-async@2.4.1
+| | +-- rxjs@6.6.7 deduped
+| | +-- string-width@4.2.2
+| | | +-- emoji-regex@8.0.0
+| | | +-- is-fullwidth-code-point@3.0.0
+| | | `-- strip-ansi@6.0.0 deduped
+| | +-- strip-ansi@6.0.0
+| | | `-- ansi-regex@5.0.0
+| | `-- through@2.3.8
+| +-- jsonc-parser@3.0.0
+| +-- npm-package-arg@8.1.5
+| | +-- hosted-git-info@4.0.2
+| | | `-- lru-cache@6.0.0 deduped
+| | +-- semver@7.3.5 deduped
+| | `-- validate-npm-package-name@3.0.0
+| |   `-- builtins@1.0.3
+| +-- npm-pick-manifest@6.1.1
+| | +-- npm-install-checks@4.0.0
+| | | `-- semver@7.3.5 deduped
+| | +-- npm-normalize-package-bin@1.0.1
+| | +-- npm-package-arg@8.1.5 deduped
+| | `-- semver@7.3.5 deduped
+| +-- open@8.2.1
+| | +-- define-lazy-prop@2.0.0
+| | +-- is-docker@2.2.1
+| | `-- is-wsl@2.2.0
+| |   `-- is-docker@2.2.1 deduped
+| +-- ora@5.4.1
+| | +-- bl@4.1.0
+| | | +-- buffer@5.7.1
+| | | | +-- base64-js@1.5.1
+| | | | `-- ieee754@1.2.1
+| | | +-- inherits@2.0.4
+| | | `-- readable-stream@3.6.0
+| | |   +-- inherits@2.0.4 deduped
+| | |   +-- string_decoder@1.3.0
+| | |   | `-- safe-buffer@5.2.1
+| | |   `-- util-deprecate@1.0.2
+| | +-- chalk@4.1.1 deduped
+| | +-- cli-cursor@3.1.0 deduped
+| | +-- cli-spinners@2.6.0
+| | +-- is-interactive@1.0.0
+| | +-- is-unicode-supported@0.1.0
+| | +-- log-symbols@4.1.0
+| | | +-- chalk@4.1.1 deduped
+| | | `-- is-unicode-supported@0.1.0 deduped
+| | +-- strip-ansi@6.0.0 deduped
+| | `-- wcwidth@1.0.1
+| |   `-- defaults@1.0.3
+| |     `-- clone@1.0.4
+| +-- pacote@11.3.4
+| | +-- @npmcli/git@2.1.0
+| | | +-- @npmcli/promise-spawn@1.3.2 deduped
+| | | +-- lru-cache@6.0.0 deduped
+| | | +-- mkdirp@1.0.4 deduped
+| | | +-- npm-pick-manifest@6.1.1 deduped
+| | | +-- promise-inflight@1.0.1
+| | | +-- promise-retry@2.0.1 deduped
+| | | +-- semver@7.3.5 deduped
+| | | `-- which@2.0.2
+| | |   `-- isexe@2.0.0
+| | +-- @npmcli/installed-package-contents@1.0.7
+| | | +-- npm-bundled@1.1.2
+| | | | `-- npm-normalize-package-bin@1.0.1 deduped
+| | | `-- npm-normalize-package-bin@1.0.1 deduped
+| | +-- @npmcli/promise-spawn@1.3.2
+| | | `-- infer-owner@1.0.4 deduped
+| | +-- @npmcli/run-script@1.8.5
+| | | +-- @npmcli/node-gyp@1.0.2
+| | | +-- @npmcli/promise-spawn@1.3.2 deduped
+| | | +-- infer-owner@1.0.4 deduped
+| | | +-- node-gyp@7.1.2
+| | | | +-- env-paths@2.2.1
+| | | | +-- glob@7.1.7 deduped
+| | | | +-- graceful-fs@4.2.6
+| | | | +-- nopt@5.0.0
+| | | | | `-- abbrev@1.1.1
+| | | | +-- npmlog@4.1.2
+| | | | | +-- are-we-there-yet@1.1.5
+| | | | | | +-- delegates@1.0.0
+| | | | | | `-- readable-stream@2.3.7
+| | | | | |   +-- core-util-is@1.0.2
+| | | | | |   +-- inherits@2.0.4 deduped
+| | | | | |   +-- isarray@1.0.0
+| | | | | |   +-- process-nextick-args@2.0.1
+| | | | | |   +-- safe-buffer@5.1.2
+| | | | | |   +-- string_decoder@1.1.1
+| | | | | |   | `-- safe-buffer@5.1.2 deduped
+| | | | | |   `-- util-deprecate@1.0.2 deduped
+| | | | | +-- console-control-strings@1.1.0
+| | | | | +-- gauge@2.7.4
+| | | | | | +-- aproba@1.2.0
+| | | | | | +-- console-control-strings@1.1.0 deduped
+| | | | | | +-- has-unicode@2.0.1
+| | | | | | +-- object-assign@4.1.1
+| | | | | | +-- signal-exit@3.0.3 deduped
+| | | | | | +-- string-width@1.0.2
+| | | | | | | +-- code-point-at@1.1.0
+| | | | | | | +-- is-fullwidth-code-point@1.0.0
+| | | | | | | | `-- number-is-nan@1.0.1
+| | | | | | | `-- strip-ansi@3.0.1 deduped
+| | | | | | +-- strip-ansi@3.0.1
+| | | | | | | `-- ansi-regex@2.1.1
+| | | | | | `-- wide-align@1.1.3
+| | | | | |   `-- string-width@2.1.1
+| | | | | |     +-- is-fullwidth-code-point@2.0.0
+| | | | | |     `-- strip-ansi@4.0.0
+| | | | | |       `-- ansi-regex@3.0.0
+| | | | | `-- set-blocking@2.0.0
+| | | | +-- request@2.88.2
+| | | | | +-- aws-sign2@0.7.0
+| | | | | +-- aws4@1.11.0
+| | | | | +-- caseless@0.12.0
+| | | | | +-- combined-stream@1.0.8
+| | | | | | `-- delayed-stream@1.0.0
+| | | | | +-- extend@3.0.2
+| | | | | +-- forever-agent@0.6.1
+| | | | | +-- form-data@2.3.3
+| | | | | | +-- asynckit@0.4.0
+| | | | | | +-- combined-stream@1.0.8 deduped
+| | | | | | `-- mime-types@2.1.32 deduped
+| | | | | +-- har-validator@5.1.5
+| | | | | | +-- ajv@6.12.6
+| | | | | | | +-- fast-deep-equal@3.1.3 deduped
+| | | | | | | +-- fast-json-stable-stringify@2.1.0 deduped
+| | | | | | | +-- json-schema-traverse@0.4.1
+| | | | | | | `-- uri-js@4.4.1 deduped
+| | | | | | `-- har-schema@2.0.0
+| | | | | +-- http-signature@1.2.0
+| | | | | | +-- assert-plus@1.0.0
+| | | | | | +-- jsprim@1.4.1
+| | | | | | | +-- assert-plus@1.0.0 deduped
+| | | | | | | +-- extsprintf@1.3.0
+| | | | | | | +-- json-schema@0.2.3
+| | | | | | | `-- verror@1.10.0
+| | | | | | |   +-- assert-plus@1.0.0 deduped
+| | | | | | |   +-- core-util-is@1.0.2 deduped
+| | | | | | |   `-- extsprintf@1.3.0 deduped
+| | | | | | `-- sshpk@1.16.1
+| | | | | |   +-- asn1@0.2.4
+| | | | | |   | `-- safer-buffer@2.1.2 deduped
+| | | | | |   +-- assert-plus@1.0.0 deduped
+| | | | | |   +-- bcrypt-pbkdf@1.0.2
+| | | | | |   | `-- tweetnacl@0.14.5 deduped
+| | | | | |   +-- dashdash@1.14.1
+| | | | | |   | `-- assert-plus@1.0.0 deduped
+| | | | | |   +-- ecc-jsbn@0.1.2
+| | | | | |   | +-- jsbn@0.1.1 deduped
+| | | | | |   | `-- safer-buffer@2.1.2 deduped
+| | | | | |   +-- getpass@0.1.7
+| | | | | |   | `-- assert-plus@1.0.0 deduped
+| | | | | |   +-- jsbn@0.1.1
+| | | | | |   +-- safer-buffer@2.1.2 deduped
+| | | | | |   `-- tweetnacl@0.14.5
+| | | | | +-- is-typedarray@1.0.0
+| | | | | +-- isstream@0.1.2
+| | | | | +-- json-stringify-safe@5.0.1
+| | | | | +-- mime-types@2.1.32
+| | | | | | `-- mime-db@1.49.0
+| | | | | +-- oauth-sign@0.9.0
+| | | | | +-- performance-now@2.1.0
+| | | | | +-- qs@6.5.2
+| | | | | +-- safe-buffer@5.2.1 deduped
+| | | | | +-- tough-cookie@2.5.0
+| | | | | | +-- psl@1.8.0
+| | | | | | `-- punycode@2.1.1 deduped
+| | | | | +-- tunnel-agent@0.6.0
+| | | | | | `-- safe-buffer@5.2.1 deduped
+| | | | | `-- uuid@3.4.0
+| | | | +-- rimraf@3.0.2 deduped
+| | | | +-- semver@7.3.5 deduped
+| | | | +-- tar@6.1.2 deduped
+| | | | `-- which@2.0.2 deduped
+| | | `-- read-package-json-fast@2.0.3 deduped
+| | +-- cacache@15.2.0
+| | | +-- @npmcli/move-file@1.1.2
+| | | | +-- mkdirp@1.0.4 deduped
+| | | | `-- rimraf@3.0.2 deduped
+| | | +-- chownr@2.0.0 deduped
+| | | +-- fs-minipass@2.1.0 deduped
+| | | +-- glob@7.1.7
+| | | | +-- fs.realpath@1.0.0
+| | | | +-- inflight@1.0.6
+| | | | | +-- once@1.4.0 deduped
+| | | | | `-- wrappy@1.0.2
+| | | | +-- inherits@2.0.4 deduped
+| | | | +-- minimatch@3.0.4
+| | | | | `-- brace-expansion@1.1.11
+| | | | |   +-- balanced-match@1.0.2
+| | | | |   `-- concat-map@0.0.1
+| | | | +-- once@1.4.0
+| | | | | `-- wrappy@1.0.2 deduped
+| | | | `-- path-is-absolute@1.0.1
+| | | +-- infer-owner@1.0.4 deduped
+| | | +-- lru-cache@6.0.0 deduped
+| | | +-- minipass@3.1.3 deduped
+| | | +-- minipass-collect@1.0.2
+| | | | `-- minipass@3.1.3 deduped
+| | | +-- minipass-flush@1.0.5
+| | | | `-- minipass@3.1.3 deduped
+| | | +-- minipass-pipeline@1.2.4
+| | | | `-- minipass@3.1.3 deduped
+| | | +-- mkdirp@1.0.4 deduped
+| | | +-- p-map@4.0.0
+| | | | `-- aggregate-error@3.1.0
+| | | |   +-- clean-stack@2.2.0
+| | | |   `-- indent-string@4.0.0
+| | | +-- promise-inflight@1.0.1 deduped
+| | | +-- rimraf@3.0.2 deduped
+| | | +-- ssri@8.0.1 deduped
+| | | +-- tar@6.1.2 deduped
+| | | `-- unique-filename@1.1.1
+| | |   `-- unique-slug@2.0.2
+| | |     `-- imurmurhash@0.1.4
+| | +-- chownr@2.0.0
+| | +-- fs-minipass@2.1.0
+| | | `-- minipass@3.1.3 deduped
+| | +-- infer-owner@1.0.4
+| | +-- minipass@3.1.3
+| | | `-- yallist@4.0.0
+| | +-- mkdirp@1.0.4
+| | +-- npm-package-arg@8.1.5 deduped
+| | +-- npm-packlist@2.2.2
+| | | +-- glob@7.1.7 deduped
+| | | +-- ignore-walk@3.0.4
+| | | | `-- minimatch@3.0.4 deduped
+| | | +-- npm-bundled@1.1.2 deduped
+| | | `-- npm-normalize-package-bin@1.0.1 deduped
+| | +-- npm-pick-manifest@6.1.1 deduped
+| | +-- npm-registry-fetch@11.0.0
+| | | +-- make-fetch-happen@9.0.4
+| | | | +-- agentkeepalive@4.1.4
+| | | | | +-- debug@4.3.1 deduped
+| | | | | +-- depd@1.1.2
+| | | | | `-- humanize-ms@1.2.1
+| | | | |   `-- ms@2.1.2 deduped
+| | | | +-- cacache@15.2.0 deduped
+| | | | +-- http-cache-semantics@4.1.0
+| | | | +-- http-proxy-agent@4.0.1
+| | | | | +-- @tootallnate/once@1.1.2
+| | | | | +-- agent-base@6.0.2
+| | | | | | `-- debug@4.3.1 deduped
+| | | | | `-- debug@4.3.1 deduped
+| | | | +-- https-proxy-agent@5.0.0
+| | | | | +-- agent-base@6.0.2 deduped
+| | | | | `-- debug@4.3.1 deduped
+| | | | +-- is-lambda@1.0.1
+| | | | +-- lru-cache@6.0.0 deduped
+| | | | +-- minipass@3.1.3 deduped
+| | | | +-- minipass-collect@1.0.2 deduped
+| | | | +-- minipass-fetch@1.3.4 deduped
+| | | | +-- minipass-flush@1.0.5 deduped
+| | | | +-- minipass-pipeline@1.2.4 deduped
+| | | | +-- negotiator@0.6.2
+| | | | +-- promise-retry@2.0.1 deduped
+| | | | +-- socks-proxy-agent@5.0.1
+| | | | | +-- agent-base@6.0.2 deduped
+| | | | | +-- debug@4.3.1 deduped
+| | | | | `-- socks@2.6.1
+| | | | |   +-- ip@1.1.5
+| | | | |   `-- smart-buffer@4.1.0
+| | | | `-- ssri@8.0.1 deduped
+| | | +-- minipass@3.1.3 deduped
+| | | +-- minipass-fetch@1.3.4
+| | | | +-- encoding@0.1.13
+| | | | | `-- iconv-lite@0.6.3
+| | | | |   `-- safer-buffer@2.1.2 deduped
+| | | | +-- minipass@3.1.3 deduped
+| | | | +-- minipass-sized@1.0.3
+| | | | | `-- minipass@3.1.3 deduped
+| | | | `-- minizlib@2.1.2 deduped
+| | | +-- minipass-json-stream@1.0.1
+| | | | +-- jsonparse@1.3.1
+| | | | `-- minipass@3.1.3 deduped
+| | | +-- minizlib@2.1.2
+| | | | +-- minipass@3.1.3 deduped
+| | | | `-- yallist@4.0.0 deduped
+| | | `-- npm-package-arg@8.1.5 deduped
+| | +-- promise-retry@2.0.1
+| | | +-- err-code@2.0.3
+| | | `-- retry@0.12.0
+| | +-- read-package-json-fast@2.0.3
+| | | +-- json-parse-even-better-errors@2.3.1
+| | | `-- npm-normalize-package-bin@1.0.1 deduped
+| | +-- rimraf@3.0.2
+| | | `-- glob@7.1.7 deduped
+| | +-- ssri@8.0.1
+| | | `-- minipass@3.1.3 deduped
+| | `-- tar@6.1.2
+| |   +-- chownr@2.0.0 deduped
+| |   +-- fs-minipass@2.1.0 deduped
+| |   +-- minipass@3.1.3 deduped
+| |   +-- minizlib@2.1.2 deduped
+| |   +-- mkdirp@1.0.4 deduped
+| |   `-- yallist@4.0.0 deduped
+| +-- resolve@1.20.0
+| | +-- is-core-module@2.5.0
+| | | `-- has@1.0.3
+| | |   `-- function-bind@1.1.1
+| | `-- path-parse@1.0.7
+| +-- semver@7.3.5
+| | `-- lru-cache@6.0.0
+| |   `-- yallist@4.0.0 deduped
+| +-- symbol-observable@4.0.0
+| `-- uuid@8.3.2
++-- lodash@4.17.21
+`-- typescript@4.3.5
+
+//top level packages
+C:\Users\charumathi.hariharan>npm list --depth=0
+C:\Users\charumathi.hariharan
++-- dotenv@10.0.0
++-- inquirer@8.1.2
+`-- progress@2.0.3
+
+//latest available version of the package on the npm repository
+C:\Users\charumathi.hariharan>npm view cowsay version
+1.5.0
+
+//install version 1.2.0
+C:\Users\charumathi.hariharan>npm install cowsay@1.2.0
 npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
 npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
 npm WARN charumathi.hariharan No description
@@ -34,192 +451,93 @@ npm WARN charumathi.hariharan No repository field.
 npm WARN charumathi.hariharan No README data
 npm WARN charumathi.hariharan No license field.
 
-+ chalk@4.1.2
-added 6 packages from 3 contributors and audited 7 packages in 1.918s
-
-2 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-
-
-C:\Users\charumathi.hariharan>node app.js
-My cat has 2 years
-15
-undefined
-undefined
-undefined
-The value of x is 1 and has been checked .. how many times?: 1
-The value of x is 1 and has been checked .. how many times?: 2
-The value of y is 2 and has been checked .. how many times?: 1
-orange: 1
-orange: 2
-just one apple: 1
-orange: 1
-orange: 2
-Trace
-    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
-    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
-    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
-    at internal/main/run_main_module.js:17:47
-hi!
-test
-doSomething(): 7.515ms
-hi!
-//progress
-C:\Users\charumathi.hariharan>npm install progress
-npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN charumathi.hariharan No description
-npm WARN charumathi.hariharan No repository field.
-npm WARN charumathi.hariharan No README data
-npm WARN charumathi.hariharan No license field.
-
-+ progress@2.0.3
-added 1 package from 5 contributors and audited 12 packages in 1.579s
-
-2 packages are looking for funding
-  run `npm fund` for details
-
-found 0 vulnerabilities
-
-//progress box
-C:\Users\charumathi.hariharan>node app.js
-My cat has 2 years
-15
-undefined
-undefined
-undefined
-The value of x is 1 and has been checked .. how many times?: 1
-The value of x is 1 and has been checked .. how many times?: 2
-The value of y is 2 and has been checked .. how many times?: 1
-orange: 1
-orange: 2
-just one apple: 1
-orange: 1
-orange: 2
-Trace
-    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
-    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
-    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
-    at internal/main/run_main_module.js:17:47
-hi!
-test
-doSomething(): 7.916ms
-hi!
-==========
-//accept input
-C:\Users\charumathi.hariharan>node app.js
-My cat has 2 years
-15
-undefined
-undefined
-undefined
-The value of x is 1 and has been checked .. how many times?: 1
-The value of x is 1 and has been checked .. how many times?: 2
-The value of y is 2 and has been checked .. how many times?: 1
-orange: 1
-orange: 2
-just one apple: 1
-orange: 1
-orange: 2
-Trace
-    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
-    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
-    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
-    at internal/main/run_main_module.js:17:47
-hi!
-test
-doSomething(): 6.664ms
-hi!
-==========
-charu
-Hi charu!
-
-C:\Users\charumathi.hariharan>npm install inquirer
-npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN charumathi.hariharan No description
-npm WARN charumathi.hariharan No repository field.
-npm WARN charumathi.hariharan No README data
-npm WARN charumathi.hariharan No license field.
-
-+ inquirer@8.1.2
-added 45 packages from 51 contributors and audited 57 packages in 36.856s
++ cowsay@1.2.0
+added 5 packages from 3 contributors and audited 92 packages in 4.137s
 
 14 packages are looking for funding
   run `npm fund` for details
 
-found 0 vulnerabilities
+found 1 low severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
 
-//inquirer
-C:\Users\charumathi.hariharan>node app.js
-My cat has 2 years
-15
-undefined
-undefined
-undefined
-The value of x is 1 and has been checked .. how many times?: 1
-The value of x is 1 and has been checked .. how many times?: 2
-The value of y is 2 and has been checked .. how many times?: 1
-orange: 1
-orange: 2
-just one apple: 1
-orange: 1
-orange: 2
-Trace
-    at function2 (C:\Users\charumathi.hariharan\app.js:39:33)
-    at function1 (C:\Users\charumathi.hariharan\app.js:40:25)
-    at Object.<anonymous> (C:\Users\charumathi.hariharan\app.js:41:1)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
-    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
-    at internal/main/run_main_module.js:17:47
-hi!
-test
-doSomething(): 8.541ms
-hi!
-==========
-? What's your name? Charu
-Hi Charu!
-? What's your name? Charu
-Hi Charu!
-//npm
-C:\Users\charumathi.hariharan>npm install lodash
-npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN charumathi.hariharan No description
-npm WARN charumathi.hariharan No repository field.
-npm WARN charumathi.hariharan No README data
-npm WARN charumathi.hariharan No license field.
+//global packages
+C:\Users\charumathi.hariharan>npm install -g webpack@4.16.4
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated uglify-es@3.3.9: support for ECMAScript is superseded by `uglify-js` as of v3.13.0
+npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+C:\Users\charumathi.hariharan\AppData\Roaming\npm\webpack -> C:\Users\charumathi.hariharan\AppData\Roaming\npm\node_modules\webpack\bin\webpack.js
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules\webpack\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\webpack\node_modules\watchpack-chokidar2\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
 
-+ lodash@4.17.21
-updated 1 package and audited 87 packages in 16.552s
++ webpack@4.16.4
+added 342 packages from 281 contributors in 43.067s
 
-14 packages are looking for funding
-  run `npm fund` for details
+//listing all previous versions
+C:\Users\charumathi.hariharan>npm view cowsay versions
 
-found 0 vulnerabilities
-npm install -g lodash
-+ lodash@4.17.21
-added 1 package from 2 contributors in 9.951s
+[
+  '1.0.0', '1.0.1', '1.0.2',
+  '1.0.3', '1.1.0', '1.1.1',
+  '1.1.2', '1.1.3', '1.1.4',
+  '1.1.5', '1.1.6', '1.1.7',
+  '1.1.8', '1.1.9', '1.2.0',
+  '1.2.1', '1.3.0', '1.3.1',
+  '1.4.0', '1.5.0'
+]
 
-C:\Users\charumathi.hariharan>npm root -g
-C:\Users\charumathi.hariharan\AppData\Roaming\npm\node_modules
+//uninstalling globally
+C:\Users\charumathi.hariharan>npm uninstall -g webpack
+npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules\webpack\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules\webpack\node_modules\watchpack-chokidar2\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+removed 342 packages in 5.263s
+
+//using npx is through the cowsay command
+C:\Users\charumathi.hariharan>npx cowsay "Hello"
+ _______
+< Hello >
+ -------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+
+
+//event loop output
+C:\Users\charumathi.hariharan>node s1.js
+foo
+bar
+baz
+
+//queuing function execution
+C:\Users\charumathi.hariharan>node s1.js
+foo
+baz
+bar
+
+//ES6 job queue(promise)
+C:\Users\charumathi.hariharan>node s1.js
+foo
+baz
+should be right after baz, before bar
+bar
+
+//zero delay output
+C:\Users\charumathi.hariharan>node timeout.js
+ before
+after
+
+//settimeout output
+C:\Users\charumathi.hariharan>node timeout.js
+runs after 50 milliseconds
+runs after 2 seconds
