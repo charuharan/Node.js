@@ -1,0 +1,32 @@
+C:\Users\charumathi.hariharan>npm install express --save
+npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
+npm WARN charumathi.hariharan No description
+npm WARN charumathi.hariharan No repository field.
+npm WARN charumathi.hariharan No README data
+npm WARN charumathi.hariharan No license field.
+
++ express@4.17.1
+added 49 packages from 35 contributors and audited 146 packages in 4.643s
+
+14 packages are looking for funding
+  run `npm fund` for details
+
+found 3 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+
+   ╭────────────────────────────────────────────────────────────────╮
+   │                                                                │
+   │     New major version of npm available! 6.14.13 -> 7.21.0      │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v7.21.0   │
+   │               Run npm install -g npm to update!                │
+   │                                                                │
+   ╰────────────────────────────────────────────────────────────────╯
+
+
+C:\Users\charumathi.hariharan>npm install -g express-generator
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+C:\Users\charumathi.hariharan\AppData\Roaming\npm\express -> C:\Users\charumathi.hariharan\AppData\Roaming\npm\node_modules\express-generator\bin\express-cli.js
++ express-generator@4.16.1
+added 10 packages from 13 contributors in 3.728s
