@@ -1,0 +1,56 @@
+Microsoft Windows [Version 10.0.19041.985]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\charumathi.hariharan>mkdir myapp1
+
+C:\Users\charumathi.hariharan>cd myapp1
+
+C:\Users\charumathi.hariharan\myapp1>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (myapp1)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\charumathi.hariharan\myapp1\package.json:
+
+{
+  "name": "myapp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\charumathi.hariharan\myapp1>npm install express --save
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN myapp1@1.0.0 No description
+npm WARN myapp1@1.0.0 No repository field.
+
++ express@4.17.1
+added 50 packages from 37 contributors and audited 50 packages in 8.396s
+found 0 vulnerabilities
+
+
+C:\Users\charumathi.hariharan\myapp1>node samp.js
+Example app listening at http://localhost:3000
