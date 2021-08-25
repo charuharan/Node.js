@@ -1,32 +1,47 @@
-C:\Users\charumathi.hariharan>npm install express --save
-npm WARN saveError ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN enoent ENOENT: no such file or directory, open 'C:\Users\charumathi.hariharan\package.json'
-npm WARN charumathi.hariharan No description
-npm WARN charumathi.hariharan No repository field.
-npm WARN charumathi.hariharan No README data
-npm WARN charumathi.hariharan No license field.
+C:\Users\charumathi.hariharan\myapp1>npm install pug --save
+npm WARN myapp1@1.0.0 No description
+npm WARN myapp1@1.0.0 No repository field.
 
-+ express@4.17.1
-added 49 packages from 35 contributors and audited 146 packages in 4.643s
++ pug@3.0.2
+added 42 packages from 16 contributors and audited 97 packages in 16.7s
 
-14 packages are looking for funding
+7 packages are looking for funding
   run `npm fund` for details
 
-found 3 low severity vulnerabilities
-  run `npm audit fix` to fix them, or `npm audit` for details
+found 0 vulnerabilities
 
-
-   ╭────────────────────────────────────────────────────────────────╮
-   │                                                                │
-   │     New major version of npm available! 6.14.13 -> 7.21.0      │
-   │   Changelog: https://github.com/npm/cli/releases/tag/v7.21.0   │
-   │               Run npm install -g npm to update!                │
-   │                                                                │
-   ╰────────────────────────────────────────────────────────────────╯
-
-
-C:\Users\charumathi.hariharan>npm install -g express-generator
-npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
-C:\Users\charumathi.hariharan\AppData\Roaming\npm\express -> C:\Users\charumathi.hariharan\AppData\Roaming\npm\node_modules\express-generator\bin\express-cli.js
-+ express-generator@4.16.1
-added 10 packages from 13 contributors in 3.728s
+C:\Users\charumathi.hariharan\myapp1>set DEBUG=express:* & node samp.js
+  express:application set "x-powered-by" to true +0ms
+  express:application set "etag" to 'weak' +8ms
+  express:application set "etag fn" to [Function: generateETag] +7ms
+  express:application set "env" to 'development' +3ms
+  express:application set "query parser" to 'extended' +2ms
+  express:application set "query parser fn" to [Function: parseExtendedQueryString] +6ms
+  express:application set "subdomain offset" to 2 +6ms
+  express:application set "trust proxy" to false +2ms
+  express:application set "trust proxy fn" to [Function: trustNone] +2ms
+  express:application booting in development mode +12ms
+  express:application set "view" to [Function: View] +1ms
+  express:application set "views" to 'C:\\Users\\charumathi.hariharan\\myapp1\\views' +3ms
+  express:application set "jsonp callback name" to 'callback' +5ms
+  express:router use '/' query +9ms
+  express:router:layer new '/' +4ms
+  express:router use '/' expressInit +3ms
+  express:router:layer new '/' +7ms
+  express:router:route new '/' +2ms
+  express:router:layer new '/' +5ms
+  express:router:route get '/' +2ms
+  express:router:layer new '/' +8ms
+  express:router:route new '/' +1ms
+  express:router:layer new '/' +6ms
+  express:router:route post '/' +8ms
+  express:router:layer new '/' +1ms
+  express:router:route new '/user' +2ms
+  express:router:layer new '/user' +5ms
+  express:router:route put '/user' +2ms
+  express:router:layer new '/' +8ms
+  express:router:route new '/user' +5ms
+  express:router:layer new '/user' +2ms
+  express:router:route delete '/user' +9ms
+  express:router:layer new '/' +4ms
+events.js:352

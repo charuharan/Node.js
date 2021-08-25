@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 var fs = require('fs') // this engine requires the fs module
-app.engine('ntl', function (filePath, options, callback) { // define the template engine
+app.engine('pug', function (filePath, options, callback) { // define the template engine
   fs.readFile(filePath, function (err, content) {
     if (err) return callback(err)
     // this is an extremely simple template engine
@@ -12,7 +12,7 @@ app.engine('ntl', function (filePath, options, callback) { // define the templat
   })
 })
 app.set('myapp1', './myapp1') // specify the myapp1 directory
-app.set('myapp1 engine', 'ntl') // register the template engine
+app.set('myapp1 engine', 'pug') // register the template engine
 app.get('/', function (req, res) {
     res.render('index', { title: 'Hey', message: 'Hello there!' })
   })
