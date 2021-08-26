@@ -1,0 +1,16 @@
+C:\Users\charumathi.hariharan>npm install --save multer
++ multer@1.4.3
+added 22 packages from 12 contributors, removed 97 packages, moved 1 package and audited 33 packages in 9.467s
+found 0 vulnerabilities
+
+C:\Users\charumathi.hariharan\myapp1> node multer.js
+{
+  fieldname: 'image',     
+  originalname: 'img.jpg',
+  encoding: '7bit',       
+  mimetype: 'image/jpeg', 
+  destination: './images',
+  filename: '1629981921206--img.jpg',
+  path: 'images\\1629981921206--img.jpg',
+  size: 155243
+}
